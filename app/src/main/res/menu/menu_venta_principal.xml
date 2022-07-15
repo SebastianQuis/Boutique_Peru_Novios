@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemTienda"
+        android:icon="@drawable/tienda"
+        android:title="Tienda"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/itemCategoria"
+        android:icon="@drawable/categoria"
+        android:title="Categoria"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/itemDescuento"
+        android:icon="@drawable/discount"
+        android:title="Descuento"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+
+
+
+    <item
+        android:id="@+id/itemPedido"
+        android:icon="@drawable/pedido"
+        android:title="Pedido"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/itemUser"
+        android:icon="@drawable/user"
+        android:title="Cuenta"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+</menu>

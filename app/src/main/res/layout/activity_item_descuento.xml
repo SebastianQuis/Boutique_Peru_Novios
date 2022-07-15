@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     app:cardCornerRadius="20dp"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <ImageView
+             android:id="@+id/idImgView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginVertical="10dp"
+             android:src="@drawable/promo1_camisa_bruno"
+             />
+         <ImageView
+             android:id="@+id/idImgView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginVertical="10dp"
+             android:src="@drawable/promo_2_camisa_dante"
+             />
+         <ImageView
+             android:id="@+id/idImgView3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginVertical="10dp"
+             android:src="@drawable/promo_3_corbatas"
+             />
+         <ImageView
+             android:id="@+id/idImgView4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginVertical="10dp"
+             android:src="@drawable/promo_4_ternos"
+             />
+     </LinearLayout>
+
+
+ </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

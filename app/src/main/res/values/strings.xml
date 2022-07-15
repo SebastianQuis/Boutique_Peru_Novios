@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Boutique Perú Novios</string>
+    <string name="title_activity_ly_producto">LyProducto</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_discount">Descuentos</string>
+    <string name="description_discount">Encuentra aquí las promociones que están disponibles.</string>
+    <string name="addTextCarrito">Agregar algo más a tu carrito +</string>
+    <string name="pagar_pedido">Pagar pedido</string>
+    <string name="txtTituloCategoria">Categorías</string>
+
+    <string name="logTxtTitulo">Iniciar sesión</string>
+    <string name="logTxtCorreo">Correo electrónico</string>
+    <string name="logTxtClave">Contraseña</string>
+    <string name="logTxtOlvidarClave">¿Olvidó su contraseña?</string>
+    <string name="logTxtDesCta">¿Aún no cuenta con una cuenta?</string>
+    <string name="logTxtRegistrate">Regístrate acá</string>
+
+    <string name="frgCarTitulo">Carrito de compras</string>
+
+    <string name="carTxtTitulo">Carrito de prendas</string>
+    <string name="txtCatNombre">Nombre de la categoría</string>
+    <string name="btnVerMas">Ver más</string>
+
+    <string name="regTxtTitulo">Regístrate</string>
+    <string name="regTxtNombre">Nombre completo</string>
+    <string name="regTxtApellidos">Apellidos</string>
+    <string name="regTxtTelefono">Teléfono</string>
+    <string name="regTxtDireccion">Dirección</string>
+    <string name="regTxtCorreo">Correo electrónico</string>
+    <string name="regTxtClave">Contraseña</string>
+    <string name="regTxtClaveConf">Confirme su contraseña</string>
+    <string name="regBtnVolver">Volver</string>
+    <string name="regBtnRegistrar">Registrar</string>
+
+    <string name="mensajeCuenta">Aquí podrás ver y configurar tus datos registrados correctamente</string>
+    <string name="tituloCuenta">Mi cuenta</string>
+    <string name="frgCueNotificaciones">Notificaciones</string>
+    <string name="frgCueDirecciones">Direcciones de entrega</string>
+    <string name="frgCueCerrarSesion">Cerrar sesión</string>
+    <string name="txtTituloDescuento">Descuentos</string>
+    <string name="tituloPedidos">Mis pedidos</string>
+    <string name="descripcionPedidos">Encuentra aquí todos tus pedidos realizados y en curso.</string>
+    <string name="titulo_toolbar_menu"></string>
+
+    <string name="btnPopCuentaAceptar">Aceptar</string>
+</resources>

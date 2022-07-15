@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".venta.dashclient.descuento.view.fragment.FgDescuento">
+
+    <include
+        android:id="@+id/idHeadNav"
+        layout="@layout/nav_tienda"/>
+
+      <TextView
+          android:id="@+id/idTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAlignment="center"
+          android:paddingTop="10dp"
+          android:textSize="25sp"
+          android:layout_margin="10dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/idHeadNav"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentStart="true"
+          android:text="@string/title_discount" />
+
+    <TextView
+        android:id="@+id/idDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/description_discount"
+        android:textSize="20sp" />
+
+  <!--  <androidx.core.widget.NestedScrollView
+        android:id="@+id/sroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+
+    </androidx.core.widget.NestedScrollView>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idDescuentoReclyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/idDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:nestedScrollingEnabled="true" />
+
+
+</RelativeLayout>

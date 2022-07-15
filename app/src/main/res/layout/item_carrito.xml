@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+ <com.google.android.material.card.MaterialCardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:layout_constraintStart_toStartOf="parent"
+     android:layout_marginTop="10dp"
+     android:layout_marginStart="10dp"
+     android:layout_marginEnd="10dp"
+     app:cardElevation="5dp"
+     app:cardCornerRadius="10dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toTopOf="parent">
+     <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="15dp"
+         android:paddingBottom="5dp">
+         <TextView
+             android:id="@+id/colorPrenda"
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:background="@color/colorPrimary"
+             android:textSize="10sp"
+             android:textStyle="bold"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <TextView
+             android:id="@+id/cateProducto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:text="Terno"
+             android:textSize="10sp"
+             android:textStyle="bold"
+             app:layout_constraintStart_toEndOf="@+id/colorPrenda"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintBottom_toTopOf="@+id/nombrePrenda"/>
+
+         <TextView
+             android:id="@+id/nombrePrenda"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:text="Polomeo negro"
+             android:textSize="11sp"
+             app:layout_constraintStart_toEndOf="@+id/colorPrenda"
+             app:layout_constraintTop_toBottomOf="@+id/cateProducto"
+             app:layout_constraintBottom_toBottomOf="parent"/>
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:id="@+id/constraint"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginEnd="16sp"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toStartOf="@+id/divider"
+             app:layout_constraintStart_toEndOf="@+id/nombrePrenda"
+             app:layout_constraintTop_toTopOf="parent">
+
+             <TextView
+                 android:id="@+id/menProd"
+                 android:layout_width="20dp"
+                 android:layout_height="wrap_content"
+                 android:background="@android:color/darker_gray"
+                 android:gravity="center"
+                 android:paddingStart="3dp"
+                 android:paddingEnd="3dp"
+                 android:text="-"
+                 android:textColor="@color/white"
+                 android:textSize="20dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent" />
+
+             <TextView
+                 android:id="@+id/cant"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:paddingStart="5dp"
+                 android:paddingEnd="5dp"
+                 android:text="1"
+                 android:textSize="17dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toStartOf="@+id/masProd"
+                 app:layout_constraintStart_toEndOf="@+id/menProd"
+                 app:layout_constraintTop_toTopOf="parent" />
+
+             <TextView
+                 android:id="@+id/masProd"
+                 android:layout_width="20dp"
+                 android:layout_height="wrap_content"
+                 android:background="@android:color/darker_gray"
+                 android:gravity="center"
+                 android:paddingStart="3dp"
+                 android:paddingEnd="3dp"
+                 android:text="+"
+                 android:textColor="@color/white"
+                 android:textSize="20dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintStart_toEndOf="@+id/cant"
+                 app:layout_constraintTop_toTopOf="parent" />
+
+         </androidx.constraintlayout.widget.ConstraintLayout>
+         <View
+             android:id="@+id/divider"
+             android:layout_width="2dp"
+             android:layout_height="60dp"
+             android:background="?android:attr/listDivider"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintStart_toEndOf="@+id/constraint"
+             app:layout_constraintEnd_toStartOf="@+id/precioPrenda"
+             app:layout_constraintBottom_toBottomOf="parent"
+             />
+         <TextView
+             android:id="@+id/precioPrenda"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="7dp"
+             android:text="S/. 46.00"
+             android:layout_marginEnd="25sp"
+             android:textSize="15sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"/>
+     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+ </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
